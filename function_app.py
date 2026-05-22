@@ -1,6 +1,6 @@
 import azure.functions as func
 import logging
-
+# hi
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
 @app.route(route="testAzure")
